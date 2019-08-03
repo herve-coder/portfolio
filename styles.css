@@ -1,0 +1,36 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  min-height: 100vh;
+  background: url(images/bcg.jpeg) center/cover no-repeat,linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+.banner_title{
+text-align: center;
+color: #07070a;
+
+}
+.btn{
+/* align-self: flex-start; */
+text-transform: uppercase;
+margin-top: 10rem;
+/* justify-self: flex-end; */
+}
+
+
